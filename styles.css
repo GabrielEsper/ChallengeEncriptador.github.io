@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    background-color:#E5E5E5;
+    font-family: "inter";
+}
+
+.logo{
+    margin: 20px 0 0 20px;
+}
+
+.blue {
+    text-align: center;
+}
+
+.input{
+    border: 0;
+    display: block;
+    width: 60%;
+    height: 360px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    outline: 0;
+    margin-left: 20%;
+    margin-top: 30px;
+    background-color:#E5E5E5;;
+}
+
+textarea::placeholder {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+}
+
+.botones{
+    margin-left: 20%;
+}
+
+.txtsobrebtn{
+    font-size: 12px;
+    color: #495057;
+}
+
+.encriptar {
+    width: 240px;
+    height: 50px;
+    background-color: #0A3871;
+    border-radius: 15px;
+    font-size: 12px;
+    color:#ffff;
+    border: none;
+    margin-right: 20px;
+}
+.desencriptar{
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color:#D8DFE8;
+    border-color: #0A3871;
+}
+
+.lateral {
+    width: 300px;
+    height: 580px;
+    background-color: #ffff;
+    border-radius: 40px;
+    margin: 0px auto;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.muneco{
+    width: 70%;
+    position: relative;
+    top: 20%;
+    margin-bottom: 20px;
+}
+
+.grande {
+    font-weight: 700;
+}
+.txtgrande{
+    font-size: 22px;
+    position: relative;
+    top: 15%;
+}
+
+.txtpequeno{
+    font-size: 14px;
+    position: relative;
+    top: 17%;
+}
+
+.botoncopiar{
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color:#D8DFE8;
+    border-color: #0A3871;
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.oculto {
+    display: none;
+}
+
+#footer {
+    font-size: 10px;
+    margin: 5px 13%;
+}
+
+@media (max-width:991px) {
+
+    .input{
+        border: 0;
+        display: block;
+        width: 80%;
+        height: 360px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 48px;
+        color: #0A3871;
+        outline: 0;
+        margin-left: 60px;
+        margin-top: 70px;
+        background-color:#E5E5E5;;
+    }
+    .botones{
+        margin-left: 60px;
+    }
+    .muneco{
+        display: none;
+    }
+    .lateral {
+        width: 87%;
+        height: 200px;
+        background-color: #ffff;
+        border-radius: 40px;
+        margin: 50px 60px;
+        position: relative;
+        text-align: center;
+    }
+    .botoncopiar{
+        width: 80%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 12px;
+        background-color:#D8DFE8;
+        border-color: #0A3871;
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .txtgrande{
+        font-weight: 700;
+        font-size: 14px;
+        margin: 40px 10px 10px;
+        position: static;
+        top: 15%;
+    }
+    
+    .txtpequeno{
+        font-size: 14px;
+        position: static;
+        top: 17%;
+    }
+    
+    .encriptar {
+        width: 42%;
+        height: 50px;
+        background-color: #0A3871;
+        border-radius: 15px;
+        font-size: 12px;
+        color:#ffff;
+        border: none;
+        margin-right: 20px;
+    }
+    .desencriptar{
+        width: 42%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 12px;
+        background-color:#D8DFE8;
+        border-color: #0A3871;
+    }
+
+    .pantallaChica {
+        margin: 0 auto;
+    }
+    
+    #footer {
+        margin: 5px 60px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:720px) {
+    #footer {
+        position: static;
+        margin: 0 60px;
+        font-size: 10px;
+    }
+
+    .lateral {
+        width: 65%;
+        height: 200px;
+        background-color: #ffff;
+        border-radius: 40px;
+        margin: 50px 60px;
+        position: relative;
+        text-align: center;
+    }
+    .encriptar {
+        width: 70%;
+        height: 50px;
+        background-color: #0A3871;
+        border-radius: 15px;
+        font-size: 12px;
+        color:#ffff;
+        border: none;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .desencriptar{
+        width: 70%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 12px;
+        background-color:#D8DFE8;
+        border-color: #0A3871;
+    }
+}
